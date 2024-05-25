@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <style>
+        body{
+            background: #353232;
+            text-align: center;
+        }
+        h1{
+            font-size: 60px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: aliceblue;
+        }
+        #watch{
+            font-size: 50px;
+            border: 5px solid gray;
+            height: 170px;
+            width: 40%;
+            margin-left: 30%;
+            background: #1a1919;
+            color: aliceblue;
+        }
+        .btn{
+            margin: 10px;
+            width: 150px;
+            height: 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            background: #353232;
+            border: 3px solid #1a1919;
+            color: aliceblue;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .btn:hover{
+            background: aliceblue;
+            color: black;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Stop-Watch</h1>
+    </div>
+    <div id="watch">
+        <br>
+        0 : 0 : 0 : 0
+    </div>
+    <br>
+    <div>
+        <button class="btn" id="start">Start</button>
+        <button class="btn" id="stop">Stop</button>
+        <button class="btn" id="reset">Reset</button>
+    </div>
+    <script src="app.js">
+
+    </script>
+    
+</body>
+</html>
+
